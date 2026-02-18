@@ -1,3 +1,6 @@
+# Project URL 
+https://roadmap.sh/projects/server-stats
+
 # Server Stats Script
 
 `server-stats.sh` is a simple Linux shell script that reports basic server performance statistics. It shows CPU, memory, disk usage, and lists the top 5 processes by CPU and memory usage.
