@@ -27,7 +27,7 @@ echo "   Free:  ${FREE} MB (${FREE_PERCENT}%)"
 
 # ---------------- DISK USAGE ----------------
 echo ""
-echo "🔹 Disk Usage (/ partition):"
+echo "Disk Usage (/ partition):"
 
 read DISK_TOTAL DISK_USED DISK_FREE DISK_PERCENT <<< $(df -h / | awk 'NR==2 {print $2, $3, $4, $5}')
 
